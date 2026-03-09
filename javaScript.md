@@ -25,6 +25,3 @@
 
 # toLocalDateString() :-
 1. it is a time or date converter.
-
-
-
