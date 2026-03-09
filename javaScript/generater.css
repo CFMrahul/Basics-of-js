@@ -1,0 +1,10 @@
+body {
+  justify-content: center;
+  text-align: center;
+  background-color: grey;
+}
+#results {
+    color: white;
+    padding: 5px;
+    height: 10px;
+}

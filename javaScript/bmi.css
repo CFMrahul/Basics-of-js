@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  min-height: 100vh;       /* Makes the body at least the height of the screen */
+  background-color: #e1b9b9; /* Optional: light gray background */
+  font-family: sans-serif;
+}
+
+#bmiGen {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;      /* Centers the text and inputs inside the box */
+}
