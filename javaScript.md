@@ -24,4 +24,17 @@
 5. it is controled the javaSript events
 
 # toLocalDateString() :-
+
 1. it is a time or date converter.
+
+# Math.random() :-
+
+1. it use to create a random number.
+
+# Note :-
+
+# const form = document.getElementsByClassName("form");
+# form.addEventListener("submit", function (e) {});
+
+1. getElementsByClassName() Returns an HTML collection, not a single element.
+2. Therefore, you cannot directly invoke addEventListener() on the HTML collection.
