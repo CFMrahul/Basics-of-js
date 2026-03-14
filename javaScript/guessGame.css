@@ -1,0 +1,88 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.container{
+background:white;
+padding:40px;
+width:400px;
+border-radius:15px;
+text-align:center;
+box-shadow:0 15px 30px rgba(0,0,0,0.2);
+}
+
+h1{
+margin-bottom:10px;
+color:#333;
+}
+
+p{
+margin:5px 0;
+color:#555;
+}
+
+.gameBox{
+margin-top:20px;
+}
+
+input{
+width:80%;
+padding:10px;
+font-size:16px;
+border-radius:6px;
+border:2px solid #ddd;
+margin-top:10px;
+}
+
+button{
+margin-top:15px;
+padding:10px 25px;
+font-size:16px;
+border:none;
+border-radius:6px;
+background:#4facfe;
+color:white;
+cursor:pointer;
+}
+
+button:hover{
+background:#008cff;
+}
+
+.resultBox{
+margin-top:20px;
+font-size:16px;
+}
+
+#message{
+margin-top:10px;
+font-weight:bold;
+color:#333;
+}
+.newGame {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: linear-gradient(135deg, #ff7e5f, #ff4757);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.newGame:hover {
+  background: linear-gradient(135deg, #ff4757, #ff7e5f);
+  transform: scale(1.05);
+}
