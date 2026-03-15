@@ -113,3 +113,24 @@
 - ctrlKey
 - shiftKey
 - keyCode
+
+# setTimeOut() :-
+
+- `setTimeout()` is a timer function.
+- It executes a function after a specified delay in milliseconds.
+- It executes only once.
+
+ 1. Syntax :
+
+``` setTimeout(function, delay); ```
+| Part       | Meaning                   |
+| ---------- | ------------------------- |
+| `function` | jo function run karna hai |
+| `delay`    | time in milliseconds      |
+
+```setTimeout(function(){
+   console.log("Hello Rahul");
+}, 2000);```
+
+
+
