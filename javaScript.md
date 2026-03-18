@@ -235,4 +235,3 @@ console.log(s2.name);
 - Binds `this` to that object.
 - Runs the constructor function.
 - Returns the object.
-
