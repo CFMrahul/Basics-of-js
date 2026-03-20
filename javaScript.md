@@ -235,3 +235,27 @@ console.log(s2.name);
 - Binds `this` to that object.
 - Runs the constructor function.
 - Returns the object.
+
+# .call() :-
+- Using `.call()`, we can use a method of one object for another object.
+- .call() is a JavaScript method that manually calls a function.
+- This function is quite useful in the context of the concept of borrowing.
+
+
+# this() :-
+- It is mandatory to call `super()` before using `this`.
+- It helps in accessing the properties and methods of the parent class.
+- it is mainly used of inheritance concept.
+- if you don't call super(), an occure error.
+
+# static :-
+- The `static` keyword is used within a class in JavaScript.
+- It defines a method or property at the class level.
+- Static members cannot be accessed through an object (instance).
+- They are called directly using the class name.
+- Static methods do not have direct access to instance properties.
+- They are commonly used to create utility functions.
+- Inside a static method, `this` refers to the class itself.
+- It is memory-efficient because all instances share it.
+- Static methods can be called even without creating an object.
+
